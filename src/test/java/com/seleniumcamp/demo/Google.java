@@ -1,5 +1,7 @@
 package com.seleniumcamp.demo;
 
+import com.jayway.restassured.internal.RequestSpecificationImpl;
+import com.jayway.restassured.specification.RequestSpecification;
 import com.seleniumcamp.runner.ConcurrentParametrized;
 import com.seleniumcamp.runner.ConcurrentParametrizedDependent;
 import org.hamcrest.Matchers;
@@ -51,7 +53,7 @@ public class Google {
     @ConcurrentParametrized.Parameter(1)
     public Map<String, String> parameters;
 
-    @ConcurrentParametrizedDependent.Parameters(name = "{0}", threads = 4)
+    @ConcurrentParametrizedDependent.Parameters(name = "{0}", threads = 5)
     public static List<Object[]> data() {
         List<Object[]> resultSet = new ArrayList<>();
         additionalParameters.entrySet().stream().forEach(parameters -> requests.stream().forEach(request ->
@@ -62,9 +64,18 @@ public class Google {
         return resultSet;
     }
 
-    @Attachment(value = "Search response for request {0}", type = "text/html")
-    public static String saveResponse(String request, String response) {
+    @Attachment(value = "Search response", type = "text/html")
+    public String saveResponse(String request, String response) {
         return response;
+    }
+
+    @Attachment(value = "Search request", type = "text/plain")
+    public String saveRequest(String method, String endpoint, RequestSpecification request) {
+        String spec = method.toUpperCase() + ": " + endpoint + "\n";
+        for (Map.Entry<String, Object> param : ((RequestSpecificationImpl) given().parameters(parameters)).getRequestParams().entrySet()) {
+            spec += param.getKey() + " => " + param.getValue().toString() + "\n";
+        }
+        return spec;
     }
 
     @Stories("DEMO")
@@ -72,8 +83,9 @@ public class Google {
     @Test
     public void demo() {
         String endPoint = "https://www.google.com.ua/search";
-        saveResponse(endPoint + " with parameters " + parameters.toString(), given().parameters(parameters)
-                .expect().statusCode(Matchers.equalTo(200))
-                .when().get(endPoint).getBody().asString());
+        RequestSpecification specification = given().parameters(parameters);
+        saveRequest("GET", endPoint, specification);
+        saveResponse(endPoint + " with parameters " + parameters.toString(),
+                specification.expect().statusCode(Matchers.equalTo(200)).when().get(endPoint).getBody().asString());
     }
 }

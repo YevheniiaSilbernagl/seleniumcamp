@@ -1,56 +1,122 @@
 {
   "time" : {
-    "start" : 1454925650207,
-    "stop" : 1454925661486,
-    "duration" : 11279
+    "start" : 1454928929580,
+    "stop" : 1454928945847,
+    "duration" : 16267
   },
   "testSuites" : [ {
-    "uid" : "3ed0afd1-f790-49e0-b994-01d5b0330c47",
+    "uid" : "b34e7bb0-f592-4ada-8b28-b9fbcbbc4c7b",
     "name" : "com.seleniumcamp.demo.Google",
     "title" : "Google",
     "time" : {
-      "start" : 1454925650207,
-      "stop" : 1454925661486,
-      "duration" : 11279
+      "start" : 1454928929580,
+      "stop" : 1454928945847,
+      "duration" : 16267
     },
     "statistic" : {
-      "total" : 3,
-      "passed" : 3,
+      "total" : 9,
+      "passed" : 9,
       "skipped" : 0,
       "failed" : 0,
       "broken" : 0
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "25373d27-d3bd-4695-944c-8c8a31ea6503",
-      "name" : "demo[Text request]",
-      "title" : "Demo [Text request]",
+      "uid" : "a056f137-df08-4dcb-8c60-d40df93bfede",
+      "name" : "demo[Video search for \"selenium camp 2016\"]",
+      "title" : "Demo [Video search for \"selenium camp 2016\"]",
       "time" : {
-        "start" : 1454925650225,
-        "stop" : 1454925661279,
-        "duration" : 11054
+        "start" : 1454928929595,
+        "stop" : 1454928945075,
+        "duration" : 15480
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "0478380b-8d4a-4a27-8acd-8fb1db1de173",
-      "name" : "demo[Pictures request]",
-      "title" : "Demo [Pictures request]",
+      "uid" : "c4757c81-bcad-4f9e-bb6f-59ec234c8795",
+      "name" : "demo[Pictures search for \"selenium camp 2016\"]",
+      "title" : "Demo [Pictures search for \"selenium camp 2016\"]",
       "time" : {
-        "start" : 1454925650225,
-        "stop" : 1454925661480,
-        "duration" : 11255
+        "start" : 1454928929596,
+        "stop" : 1454928945070,
+        "duration" : 15474
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "b65d136c-210d-42c6-87d1-64c91b2ddf65",
-      "name" : "demo[Video request]",
-      "title" : "Demo [Video request]",
+      "uid" : "13fd7b71-4d08-4010-b69b-fd8fe8560ad9",
+      "name" : "demo[Pictures search for \"x1group careers\"]",
+      "title" : "Demo [Pictures search for \"x1group careers\"]",
       "time" : {
-        "start" : 1454925650226,
-        "stop" : 1454925661278,
-        "duration" : 11052
+        "start" : 1454928929596,
+        "stop" : 1454928945073,
+        "duration" : 15477
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "e45f0331-4199-4c39-b66b-22a83fc572bf",
+      "name" : "demo[Video search for \"x1group\"]",
+      "title" : "Demo [Video search for \"x1group\"]",
+      "time" : {
+        "start" : 1454928929596,
+        "stop" : 1454928945073,
+        "duration" : 15477
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "9a025bc2-b8a9-4a60-8915-ff1f4c8c3886",
+      "name" : "demo[Video search for \"x1group careers\"]",
+      "title" : "Demo [Video search for \"x1group careers\"]",
+      "time" : {
+        "start" : 1454928929597,
+        "stop" : 1454928945072,
+        "duration" : 15475
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "281a5d60-e969-4ec7-9a54-0b81b1c74976",
+      "name" : "demo[Pictures search for \"x1group\"]",
+      "title" : "Demo [Pictures search for \"x1group\"]",
+      "time" : {
+        "start" : 1454928945077,
+        "stop" : 1454928945836,
+        "duration" : 759
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "68dfec9a-ef1f-481d-88ae-20c249e23eec",
+      "name" : "demo[Text search for \"selenium camp 2016\"]",
+      "title" : "Demo [Text search for \"selenium camp 2016\"]",
+      "time" : {
+        "start" : 1454928945083,
+        "stop" : 1454928945738,
+        "duration" : 655
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "0f8f5319-da65-4ffb-adf8-097764bbdb37",
+      "name" : "demo[Text search for \"x1group careers\"]",
+      "title" : "Demo [Text search for \"x1group careers\"]",
+      "time" : {
+        "start" : 1454928945092,
+        "stop" : 1454928945816,
+        "duration" : 724
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "660b64ce-4332-4aef-a29a-a9ea8c441ae2",
+      "name" : "demo[Text search for \"x1group\"]",
+      "title" : "Demo [Text search for \"x1group\"]",
+      "time" : {
+        "start" : 1454928945093,
+        "stop" : 1454928945793,
+        "duration" : 700
       },
       "severity" : null,
       "status" : "PASSED"

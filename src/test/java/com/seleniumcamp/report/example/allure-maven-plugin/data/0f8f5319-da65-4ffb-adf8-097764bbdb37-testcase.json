@@ -1,0 +1,48 @@
+{
+  "uid" : "0f8f5319-da65-4ffb-adf8-097764bbdb37",
+  "name" : "demo[Text search for \"x1group careers\"]",
+  "title" : "Demo [Text search for \"x1group careers\"]",
+  "time" : {
+    "start" : 1454928945092,
+    "stop" : 1454928945816,
+    "duration" : 724
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Search request",
+    "source" : "80b03632-e454-4491-8830-24f619c9c131-attachment.txt",
+    "type" : null
+  }, {
+    "title" : "Search response",
+    "source" : "80457d6c-1a9d-4ac1-9956-d9998bfcb4a5-attachment.html",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DEMO"
+  }, {
+    "name" : "feature",
+    "value" : "Google search"
+  }, {
+    "name" : "host",
+    "value" : "evgeniyat"
+  }, {
+    "name" : "thread",
+    "value" : "12438@evgeniyat.pool-19-thread-1(24)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

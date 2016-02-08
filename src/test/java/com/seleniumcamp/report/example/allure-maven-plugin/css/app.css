@@ -256,7 +256,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 .fade{opacity:0;-webkit-transition:opacity 0.15s linear;transition:opacity 0.15s linear;}.fade.in{opacity:1;}
 .collapse{display:none;}.collapse.in{display:block;}
 .collapsing{position:relative;height:0;overflow:hidden;-webkit-transition:height 0.35s ease;transition:height 0.35s ease;}
-@font-face{font-family:'Glyphicons Halflings';src:url('../fonts/glyphicons-halflings-regular.eot');src:url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('../fonts/glyphicons-halflings-regular.woff') format('woff'),url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');}  .glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}  .glyphicon:empty{width:1em;}
+@font-face{font-family:'Glyphicons Halflings';src:url('../fonts/glyphicons-halflings-regular.eot');src:url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('../fonts/glyphicons-halflings-regular.woff') format('woff'),url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');}.glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.glyphicon:empty{width:1em;}
 .glyphicon-asterisk:before{content:"\2a";}
 .glyphicon-plus:before{content:"\2b";}
 .glyphicon-euro:before{content:"\20ac";}
@@ -1091,7 +1091,7 @@ svg .link.link-current{font-weight:bold;}
 .step .has-content .glyphicon-chevron-down{visibility:visible;}
 .attachment img{max-width:100%;}
 .b-page__nav .navbar-header{background-color:#f2f2f2;width:138px;}.b-page__nav .navbar-header:hover{background-color:#eee;}
-.b-page__nav .navbar-header .allure-logo{background:url(../img/allure-logo.png) 10px center no-repeat;font-size:1.4em;padding-left:55px;font-weight:bold;}  .b-page__nav .navbar-header .allure-logo,.b-page__nav .navbar-header .allure-logo:hover{color:#333333;}
+.b-page__nav .navbar-header .allure-logo{background:url(../img/allure-logo.png) 10px center no-repeat;font-size:1.4em;padding-left:55px;font-weight:bold;}.b-page__nav .navbar-header .allure-logo,.b-page__nav .navbar-header .allure-logo:hover{color:#333333;}
 .dashboard{position:absolute;top:50px;left:0px;right:0;bottom:0;}
 .dashboard>.b-vert{text-align:center;float:left;margin-top:20px;width:8%;min-width:80px;max-width:138px;}.dashboard>.b-vert .glyphicon{display:block;font-size:250%;margin:0 auto;}
 .dashboard>.tab-content{height:100%;overflow:auto;position:relative;padding-left:1px;}.dashboard>.tab-content>.tab-content-fill{overflow:hidden;position:absolute;margin:0;top:20px;left:0;bottom:20px;right:20px;}

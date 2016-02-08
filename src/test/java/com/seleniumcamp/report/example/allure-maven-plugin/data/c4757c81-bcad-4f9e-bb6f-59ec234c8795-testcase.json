@@ -1,0 +1,48 @@
+{
+  "uid" : "c4757c81-bcad-4f9e-bb6f-59ec234c8795",
+  "name" : "demo[Pictures search for \"selenium camp 2016\"]",
+  "title" : "Demo [Pictures search for \"selenium camp 2016\"]",
+  "time" : {
+    "start" : 1454928929596,
+    "stop" : 1454928945070,
+    "duration" : 15474
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Search request",
+    "source" : "834a4bab-c547-438d-a539-ec54a58a234c-attachment.txt",
+    "type" : null
+  }, {
+    "title" : "Search response",
+    "source" : "1c4ed353-0e06-4479-8ad5-e40d5c3e6fb5-attachment.html",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DEMO"
+  }, {
+    "name" : "feature",
+    "value" : "Google search"
+  }, {
+    "name" : "host",
+    "value" : "evgeniyat"
+  }, {
+    "name" : "thread",
+    "value" : "12438@evgeniyat.pool-15-thread-1(21)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,5 @@
+GET: https://www.google.com.ua/search
+q => x1group careers
+source => lnms
+tbm => vid
+sa => X

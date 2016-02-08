@@ -1,0 +1,5 @@
+GET: https://www.google.com.ua/search
+q => x1group
+source => lnms
+tbm => vid
+sa => X
