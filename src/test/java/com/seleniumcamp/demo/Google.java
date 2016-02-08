@@ -12,10 +12,7 @@ import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Parameter;
 import ru.yandex.qatools.allure.annotations.Stories;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static com.jayway.restassured.RestAssured.given;
 
@@ -24,7 +21,29 @@ import static com.jayway.restassured.RestAssured.given;
  */
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @RunWith(ConcurrentParametrizedDependent.class)
+@SuppressWarnings("unused")
 public class Google {
+    /*List of search requests*/
+    private static final List<String> requests = Arrays.asList(
+            "selenium camp 2016",
+            "x1group careers",
+            "x1group"
+    );
+
+    /*List of additional search parameters*/
+    private static final Map<String, Map<String, String>> additionalParameters = new HashMap<String, Map<String, String>>() {{
+        put("Text search", new HashMap<>());
+        put("Pictures search", new HashMap<String, String>() {{
+            put("tbm", "isch");
+            put("sa", "X");
+        }});
+        put("Video search", new HashMap<String, String>() {{
+            put("tbm", "vid");
+            put("source", "lnms");
+            put("sa", "X");
+        }});
+    }};
+
     @ConcurrentParametrized.Parameter
     public String testName;
 
@@ -34,24 +53,13 @@ public class Google {
 
     @ConcurrentParametrizedDependent.Parameters(name = "{0}", threads = 4)
     public static List<Object[]> data() {
-        return new ArrayList<Object[]>() {
-            {
-                add(new Object[]{"Text request", new HashMap<String, String>() {{
-                    put("q", "selenium camp 2016");
-                }}});
-                add(new Object[]{"Pictures request", new HashMap<String, String>() {{
-                    put("q", "x1group careers");
-                    put("tbm", "isch");
-                    put("sa", "X");
-                }}});
-                add(new Object[]{"Video request", new HashMap<String, String>() {{
-                    put("q", "x1group");
-                    put("tbm", "vid");
-                    put("source", "lnms");
-                    put("sa", "X");
-                }}});
-            }
-        };
+        List<Object[]> resultSet = new ArrayList<>();
+        additionalParameters.entrySet().stream().forEach(parameters -> requests.stream().forEach(request ->
+                resultSet.add(new Object[]{parameters.getKey() + " for \"" + request + "\"", new HashMap<String, String>() {{
+                    putAll(parameters.getValue());
+                    put("q", request);
+                }}})));
+        return resultSet;
     }
 
     @Attachment(value = "Search response for request {0}", type = "text/html")
