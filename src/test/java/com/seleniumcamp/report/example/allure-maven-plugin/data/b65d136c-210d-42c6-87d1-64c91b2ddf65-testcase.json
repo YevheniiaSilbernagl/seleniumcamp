@@ -1,0 +1,44 @@
+{
+  "uid" : "b65d136c-210d-42c6-87d1-64c91b2ddf65",
+  "name" : "demo[Video request]",
+  "title" : "Demo [Video request]",
+  "time" : {
+    "start" : 1454925650226,
+    "stop" : 1454925661278,
+    "duration" : 11052
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Search response for request https://www.google.com.ua/search with parameters {q=x1group, source=lnms, tbm=vid, sa=X}",
+    "source" : "9c7d882e-7644-4dbf-8643-def945d8feea-attachment.html",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DEMO"
+  }, {
+    "name" : "feature",
+    "value" : "Google search"
+  }, {
+    "name" : "host",
+    "value" : "evgeniyat"
+  }, {
+    "name" : "thread",
+    "value" : "8538@evgeniyat.pool-8-thread-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

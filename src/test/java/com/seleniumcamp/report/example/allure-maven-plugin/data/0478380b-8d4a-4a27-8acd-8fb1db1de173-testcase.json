@@ -1,0 +1,44 @@
+{
+  "uid" : "0478380b-8d4a-4a27-8acd-8fb1db1de173",
+  "name" : "demo[Pictures request]",
+  "title" : "Demo [Pictures request]",
+  "time" : {
+    "start" : 1454925650225,
+    "stop" : 1454925661480,
+    "duration" : 11255
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Search response for request https://www.google.com.ua/search with parameters {q=x1group careers, tbm=isch, sa=X}",
+    "source" : "1f53c872-7b7b-4d19-a6ac-f60aa5ffe8db-attachment.html",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DEMO"
+  }, {
+    "name" : "feature",
+    "value" : "Google search"
+  }, {
+    "name" : "host",
+    "value" : "evgeniyat"
+  }, {
+    "name" : "thread",
+    "value" : "8538@evgeniyat.pool-7-thread-1(17)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

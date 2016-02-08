@@ -1,0 +1,44 @@
+{
+  "uid" : "25373d27-d3bd-4695-944c-8c8a31ea6503",
+  "name" : "demo[Text request]",
+  "title" : "Demo [Text request]",
+  "time" : {
+    "start" : 1454925650225,
+    "stop" : 1454925661279,
+    "duration" : 11054
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Search response for request https://www.google.com.ua/search with parameters {q=selenium camp 2016}",
+    "source" : "d153740b-3632-4100-9745-8ea1611e4ba6-attachment.html",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DEMO"
+  }, {
+    "name" : "feature",
+    "value" : "Google search"
+  }, {
+    "name" : "host",
+    "value" : "evgeniyat"
+  }, {
+    "name" : "thread",
+    "value" : "8538@evgeniyat.pool-6-thread-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

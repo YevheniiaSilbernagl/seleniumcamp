@@ -1,0 +1,57 @@
+{
+  "features" : [ {
+    "title" : "Google search",
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "1710a40018a68c7794a69c136bc4313b",
+      "title" : "DEMO",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "25373d27-d3bd-4695-944c-8c8a31ea6503",
+        "name" : "demo[Text request]",
+        "title" : "Demo [Text request]",
+        "time" : {
+          "start" : 1454925650225,
+          "stop" : 1454925661279,
+          "duration" : 11054
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      }, {
+        "uid" : "0478380b-8d4a-4a27-8acd-8fb1db1de173",
+        "name" : "demo[Pictures request]",
+        "title" : "Demo [Pictures request]",
+        "time" : {
+          "start" : 1454925650225,
+          "stop" : 1454925661480,
+          "duration" : 11255
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      }, {
+        "uid" : "b65d136c-210d-42c6-87d1-64c91b2ddf65",
+        "name" : "demo[Video request]",
+        "title" : "Demo [Video request]",
+        "time" : {
+          "start" : 1454925650226,
+          "stop" : 1454925661278,
+          "duration" : 11052
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

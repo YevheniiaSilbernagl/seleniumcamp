@@ -1,0 +1,59 @@
+{
+  "time" : {
+    "start" : 1454925650207,
+    "stop" : 1454925661486,
+    "duration" : 11279
+  },
+  "testSuites" : [ {
+    "uid" : "3ed0afd1-f790-49e0-b994-01d5b0330c47",
+    "name" : "com.seleniumcamp.demo.Google",
+    "title" : "Google",
+    "time" : {
+      "start" : 1454925650207,
+      "stop" : 1454925661486,
+      "duration" : 11279
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "25373d27-d3bd-4695-944c-8c8a31ea6503",
+      "name" : "demo[Text request]",
+      "title" : "Demo [Text request]",
+      "time" : {
+        "start" : 1454925650225,
+        "stop" : 1454925661279,
+        "duration" : 11054
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "0478380b-8d4a-4a27-8acd-8fb1db1de173",
+      "name" : "demo[Pictures request]",
+      "title" : "Demo [Pictures request]",
+      "time" : {
+        "start" : 1454925650225,
+        "stop" : 1454925661480,
+        "duration" : 11255
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "b65d136c-210d-42c6-87d1-64c91b2ddf65",
+      "name" : "demo[Video request]",
+      "title" : "Demo [Video request]",
+      "time" : {
+        "start" : 1454925650226,
+        "stop" : 1454925661278,
+        "duration" : 11052
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  } ]
+}
