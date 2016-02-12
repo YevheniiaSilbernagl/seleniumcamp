@@ -1,11 +1,11 @@
 {
-  "uid" : "a056f137-df08-4dcb-8c60-d40df93bfede",
-  "name" : "demo[Video search for \"selenium camp 2016\"]",
-  "title" : "Demo [Video search for \"selenium camp 2016\"]",
+  "uid" : "f3724fc2-f2f9-4a85-8092-6e41734ad2fb",
+  "name" : "json[10]",
+  "title" : "Json [10]",
   "time" : {
-    "start" : 1454928929595,
-    "stop" : 1454928945075,
-    "duration" : 15480
+    "start" : 1455270530883,
+    "stop" : 1455270549005,
+    "duration" : 18122
   },
   "summary" : {
     "attachments" : 2,
@@ -18,11 +18,11 @@
   "steps" : [ ],
   "attachments" : [ {
     "title" : "Search request",
-    "source" : "0507b53d-ac53-49d3-b14a-cf7e385c72ed-attachment.txt",
+    "source" : "ce37f301-9b00-4e81-b1ee-21d4c0caaa6c-attachment.txt",
     "type" : null
   }, {
     "title" : "Search response",
-    "source" : "d70b177a-4ee5-4e6b-839d-288855f97ec0-attachment.html",
+    "source" : "8f2c85f8-7616-4db7-8a80-0803e8da91ca-attachment.json",
     "type" : null
   } ],
   "labels" : [ {
@@ -36,7 +36,7 @@
     "value" : "evgeniyat"
   }, {
     "name" : "thread",
-    "value" : "12438@evgeniyat.pool-12-thread-1(15)"
+    "value" : "2990@evgeniyat.pool-18-thread-1(22)"
   }, {
     "name" : "framework",
     "value" : "JUnit"

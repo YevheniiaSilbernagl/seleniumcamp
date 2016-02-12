@@ -1,11 +1,11 @@
 {
-  "uid" : "660b64ce-4332-4aef-a29a-a9ea8c441ae2",
-  "name" : "demo[Text search for \"x1group\"]",
-  "title" : "Demo [Text search for \"x1group\"]",
+  "uid" : "2e247267-650d-45fd-8120-ae556dfaaa95",
+  "name" : "html[Text search for \"x1group careers\"]",
+  "title" : "Html [Text search for \"x1group careers\"]",
   "time" : {
-    "start" : 1454928945093,
-    "stop" : 1454928945793,
-    "duration" : 700
+    "start" : 1455270548199,
+    "stop" : 1455270548864,
+    "duration" : 665
   },
   "summary" : {
     "attachments" : 2,
@@ -18,11 +18,11 @@
   "steps" : [ ],
   "attachments" : [ {
     "title" : "Search request",
-    "source" : "f1fe7995-69d1-4968-b3c4-54af3f0b6ef5-attachment.txt",
+    "source" : "46d4fb82-d1d4-4ab9-a39c-c031e8f342e4-attachment.txt",
     "type" : null
   }, {
     "title" : "Search response",
-    "source" : "1d92af94-266b-4797-99d8-a6e88d5ce21e-attachment.html",
+    "source" : "9634bbea-d6f8-4fcc-b715-04a63a28d340-attachment.html",
     "type" : null
   } ],
   "labels" : [ {
@@ -36,7 +36,7 @@
     "value" : "evgeniyat"
   }, {
     "name" : "thread",
-    "value" : "12438@evgeniyat.pool-20-thread-1(25)"
+    "value" : "2990@evgeniyat.pool-29-thread-1(34)"
   }, {
     "name" : "framework",
     "value" : "JUnit"

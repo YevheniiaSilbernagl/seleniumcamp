@@ -1,0 +1,1 @@
+GET: https://qrng.anu.edu.au/API/jsonI.php

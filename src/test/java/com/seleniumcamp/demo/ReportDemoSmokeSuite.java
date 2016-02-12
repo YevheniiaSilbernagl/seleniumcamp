@@ -13,10 +13,11 @@ import static com.seleniumcamp.runner.SmokeRunner.RunningMode.all;
  * Created by evgeniyat on 07.01.16
  */
 @RunWith(SmokeRunner.class)
-public class GoogleDemoSmokeSuite {
+public class ReportDemoSmokeSuite {
     @ConcurrentParametrized.Parameters(threads = 25)
     public static Collection dataProvider() {
         return Arrays.asList(new Object[][]{
+                {RandomGenerator.class, all()},
                 {Google.class, all()},
         });
     }

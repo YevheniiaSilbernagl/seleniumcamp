@@ -1,17 +1,79 @@
 {
   "time" : {
-    "start" : 1454928929580,
-    "stop" : 1454928945847,
-    "duration" : 16267
+    "start" : 1455270530849,
+    "stop" : 1455270549249,
+    "duration" : 18400
   },
   "testSuites" : [ {
-    "uid" : "b34e7bb0-f592-4ada-8b28-b9fbcbbc4c7b",
+    "uid" : "ff4a9809-e7ba-4044-bc8b-2d1b989319bf",
+    "name" : "com.seleniumcamp.demo.RandomGenerator",
+    "title" : "Random generator",
+    "time" : {
+      "start" : 1455270530849,
+      "stop" : 1455270549025,
+      "duration" : 18176
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f3724fc2-f2f9-4a85-8092-6e41734ad2fb",
+      "name" : "json[10]",
+      "title" : "Json [10]",
+      "time" : {
+        "start" : 1455270530883,
+        "stop" : 1455270549005,
+        "duration" : 18122
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "13624212-b737-449a-bf26-9063abd7d8a3",
+      "name" : "json[1]",
+      "title" : "Json [1]",
+      "time" : {
+        "start" : 1455270530884,
+        "stop" : 1455270549022,
+        "duration" : 18138
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "753ec53d-ef25-4bb6-8946-47c47b417a46",
+      "name" : "json[-1]",
+      "title" : "Json [-1]",
+      "time" : {
+        "start" : 1455270530885,
+        "stop" : 1455270549003,
+        "duration" : 18118
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "aa8bf698-0499-4bae-8b0a-6dbecbd0e916",
+      "name" : "json[0]",
+      "title" : "Json [0]",
+      "time" : {
+        "start" : 1455270530909,
+        "stop" : 1455270549009,
+        "duration" : 18100
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "0d911022-37de-45ae-914f-26c615fda193",
     "name" : "com.seleniumcamp.demo.Google",
     "title" : "Google",
     "time" : {
-      "start" : 1454928929580,
-      "stop" : 1454928945847,
-      "duration" : 16267
+      "start" : 1455270530885,
+      "stop" : 1455270549249,
+      "duration" : 18364
     },
     "statistic" : {
       "total" : 9,
@@ -22,101 +84,101 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "a056f137-df08-4dcb-8c60-d40df93bfede",
-      "name" : "demo[Video search for \"selenium camp 2016\"]",
-      "title" : "Demo [Video search for \"selenium camp 2016\"]",
+      "uid" : "ced8cd22-1ceb-4d0c-a536-88471e96b691",
+      "name" : "html[Pictures search for \"x1group careers\"]",
+      "title" : "Html [Pictures search for \"x1group careers\"]",
       "time" : {
-        "start" : 1454928929595,
-        "stop" : 1454928945075,
-        "duration" : 15480
+        "start" : 1455270530885,
+        "stop" : 1455270548168,
+        "duration" : 17283
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "c4757c81-bcad-4f9e-bb6f-59ec234c8795",
-      "name" : "demo[Pictures search for \"selenium camp 2016\"]",
-      "title" : "Demo [Pictures search for \"selenium camp 2016\"]",
+      "uid" : "e129de53-766f-4ec1-b5c5-fc3d76f54fb4",
+      "name" : "html[Pictures search for \"selenium camp 2016\"]",
+      "title" : "Html [Pictures search for \"selenium camp 2016\"]",
       "time" : {
-        "start" : 1454928929596,
-        "stop" : 1454928945070,
-        "duration" : 15474
+        "start" : 1455270530914,
+        "stop" : 1455270548170,
+        "duration" : 17256
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "13fd7b71-4d08-4010-b69b-fd8fe8560ad9",
-      "name" : "demo[Pictures search for \"x1group careers\"]",
-      "title" : "Demo [Pictures search for \"x1group careers\"]",
+      "uid" : "e69fd707-d762-4453-a18a-499ad19058cb",
+      "name" : "html[Video search for \"selenium camp 2016\"]",
+      "title" : "Html [Video search for \"selenium camp 2016\"]",
       "time" : {
-        "start" : 1454928929596,
-        "stop" : 1454928945073,
-        "duration" : 15477
+        "start" : 1455270530916,
+        "stop" : 1455270548170,
+        "duration" : 17254
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "e45f0331-4199-4c39-b66b-22a83fc572bf",
-      "name" : "demo[Video search for \"x1group\"]",
-      "title" : "Demo [Video search for \"x1group\"]",
+      "uid" : "82f38b22-1cf2-4cb5-9437-810a69b88fce",
+      "name" : "html[Video search for \"x1group careers\"]",
+      "title" : "Html [Video search for \"x1group careers\"]",
       "time" : {
-        "start" : 1454928929596,
-        "stop" : 1454928945073,
-        "duration" : 15477
+        "start" : 1455270530919,
+        "stop" : 1455270548170,
+        "duration" : 17251
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "9a025bc2-b8a9-4a60-8915-ff1f4c8c3886",
-      "name" : "demo[Video search for \"x1group careers\"]",
-      "title" : "Demo [Video search for \"x1group careers\"]",
+      "uid" : "03923a00-3eef-4b10-9646-b6ce75eb6951",
+      "name" : "html[Video search for \"x1group\"]",
+      "title" : "Html [Video search for \"x1group\"]",
       "time" : {
-        "start" : 1454928929597,
-        "stop" : 1454928945072,
-        "duration" : 15475
+        "start" : 1455270530920,
+        "stop" : 1455270548171,
+        "duration" : 17251
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "281a5d60-e969-4ec7-9a54-0b81b1c74976",
-      "name" : "demo[Pictures search for \"x1group\"]",
-      "title" : "Demo [Pictures search for \"x1group\"]",
+      "uid" : "7b32d675-d91f-4775-87c1-b802ddfecb43",
+      "name" : "html[Pictures search for \"x1group\"]",
+      "title" : "Html [Pictures search for \"x1group\"]",
       "time" : {
-        "start" : 1454928945077,
-        "stop" : 1454928945836,
-        "duration" : 759
+        "start" : 1455270548175,
+        "stop" : 1455270548953,
+        "duration" : 778
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "68dfec9a-ef1f-481d-88ae-20c249e23eec",
-      "name" : "demo[Text search for \"selenium camp 2016\"]",
-      "title" : "Demo [Text search for \"selenium camp 2016\"]",
+      "uid" : "335cf555-f5a7-4544-a313-8e68d52916c7",
+      "name" : "html[Text search for \"selenium camp 2016\"]",
+      "title" : "Html [Text search for \"selenium camp 2016\"]",
       "time" : {
-        "start" : 1454928945083,
-        "stop" : 1454928945738,
-        "duration" : 655
+        "start" : 1455270548193,
+        "stop" : 1455270548864,
+        "duration" : 671
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "0f8f5319-da65-4ffb-adf8-097764bbdb37",
-      "name" : "demo[Text search for \"x1group careers\"]",
-      "title" : "Demo [Text search for \"x1group careers\"]",
+      "uid" : "2e247267-650d-45fd-8120-ae556dfaaa95",
+      "name" : "html[Text search for \"x1group careers\"]",
+      "title" : "Html [Text search for \"x1group careers\"]",
       "time" : {
-        "start" : 1454928945092,
-        "stop" : 1454928945816,
-        "duration" : 724
+        "start" : 1455270548199,
+        "stop" : 1455270548864,
+        "duration" : 665
       },
       "severity" : null,
       "status" : "PASSED"
     }, {
-      "uid" : "660b64ce-4332-4aef-a29a-a9ea8c441ae2",
-      "name" : "demo[Text search for \"x1group\"]",
-      "title" : "Demo [Text search for \"x1group\"]",
+      "uid" : "89fbe34c-58b9-4531-964e-25fbee9108d0",
+      "name" : "html[Text search for \"x1group\"]",
+      "title" : "Html [Text search for \"x1group\"]",
       "time" : {
-        "start" : 1454928945093,
-        "stop" : 1454928945793,
-        "duration" : 700
+        "start" : 1455270548208,
+        "stop" : 1455270548940,
+        "duration" : 732
       },
       "severity" : null,
       "status" : "PASSED"

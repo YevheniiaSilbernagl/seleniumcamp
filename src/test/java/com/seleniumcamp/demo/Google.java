@@ -81,7 +81,7 @@ public class Google {
     @Stories("DEMO")
     @Features("Google search")
     @Test
-    public void demo() {
+    public void html() {
         String endPoint = "https://www.google.com.ua/search";
         RequestSpecification specification = given().parameters(parameters);
         saveRequest("GET", endPoint, specification);

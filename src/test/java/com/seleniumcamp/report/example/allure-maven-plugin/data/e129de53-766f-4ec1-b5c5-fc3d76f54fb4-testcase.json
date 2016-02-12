@@ -1,11 +1,11 @@
 {
-  "uid" : "c4757c81-bcad-4f9e-bb6f-59ec234c8795",
-  "name" : "demo[Pictures search for \"selenium camp 2016\"]",
-  "title" : "Demo [Pictures search for \"selenium camp 2016\"]",
+  "uid" : "e129de53-766f-4ec1-b5c5-fc3d76f54fb4",
+  "name" : "html[Pictures search for \"selenium camp 2016\"]",
+  "title" : "Html [Pictures search for \"selenium camp 2016\"]",
   "time" : {
-    "start" : 1454928929596,
-    "stop" : 1454928945070,
-    "duration" : 15474
+    "start" : 1455270530914,
+    "stop" : 1455270548170,
+    "duration" : 17256
   },
   "summary" : {
     "attachments" : 2,
@@ -18,11 +18,11 @@
   "steps" : [ ],
   "attachments" : [ {
     "title" : "Search request",
-    "source" : "834a4bab-c547-438d-a539-ec54a58a234c-attachment.txt",
+    "source" : "0c8e3f9a-a1d7-41a7-b012-bfd6f38e34c3-attachment.txt",
     "type" : null
   }, {
     "title" : "Search response",
-    "source" : "1c4ed353-0e06-4479-8ad5-e40d5c3e6fb5-attachment.html",
+    "source" : "854c96db-370c-43d9-b796-5140565f2b65-attachment.html",
     "type" : null
   } ],
   "labels" : [ {
@@ -36,7 +36,7 @@
     "value" : "evgeniyat"
   }, {
     "name" : "thread",
-    "value" : "12438@evgeniyat.pool-15-thread-1(21)"
+    "value" : "2990@evgeniyat.pool-25-thread-1(25)"
   }, {
     "name" : "framework",
     "value" : "JUnit"

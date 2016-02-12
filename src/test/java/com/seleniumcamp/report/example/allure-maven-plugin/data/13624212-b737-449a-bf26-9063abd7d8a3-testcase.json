@@ -1,0 +1,48 @@
+{
+  "uid" : "13624212-b737-449a-bf26-9063abd7d8a3",
+  "name" : "json[1]",
+  "title" : "Json [1]",
+  "time" : {
+    "start" : 1455270530884,
+    "stop" : 1455270549022,
+    "duration" : 18138
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Search request",
+    "source" : "477f02bf-cc73-4915-be62-8bb363489c3d-attachment.txt",
+    "type" : null
+  }, {
+    "title" : "Search response",
+    "source" : "d98a0b3c-5885-4d24-95f2-2884652ff2fb-attachment.json",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DEMO"
+  }, {
+    "name" : "feature",
+    "value" : "Google search"
+  }, {
+    "name" : "host",
+    "value" : "evgeniyat"
+  }, {
+    "name" : "thread",
+    "value" : "2990@evgeniyat.pool-17-thread-1(23)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}
