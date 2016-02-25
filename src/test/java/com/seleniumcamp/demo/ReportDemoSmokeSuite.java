@@ -1,5 +1,6 @@
 package com.seleniumcamp.demo;
 
+import com.seleniumcamp.endpoint.demo.GoogleEndPointStyle;
 import com.seleniumcamp.runner.ConcurrentParametrized;
 import com.seleniumcamp.runner.SmokeRunner;
 import org.junit.runner.RunWith;
@@ -19,6 +20,7 @@ public class ReportDemoSmokeSuite {
         return Arrays.asList(new Object[][]{
                 {RandomGenerator.class, all()},
                 {Google.class, all()},
+                {GoogleEndPointStyle.class, all()},
         });
     }
 }

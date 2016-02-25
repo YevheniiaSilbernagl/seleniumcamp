@@ -29,7 +29,7 @@ public class GoogleEndPointStyle {
     @ConcurrentParametrized.Parameter(1)
     public Function<RequestSpecification, RequestSender> request;
 
-    @ConcurrentParametrizedDependent.Parameters(name = "{0}", threads = 5)
+    @ConcurrentParametrizedDependent.Parameters(name = "{0}", threads = 1)
     public static List<Object[]> data() {
         return new ArrayList<Object[]>() {
             {

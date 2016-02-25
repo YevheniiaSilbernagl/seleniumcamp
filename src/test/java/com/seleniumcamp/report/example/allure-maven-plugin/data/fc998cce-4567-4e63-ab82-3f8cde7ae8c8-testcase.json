@@ -1,0 +1,63 @@
+{
+  "uid" : "fc998cce-4567-4e63-ab82-3f8cde7ae8c8",
+  "name" : "html[Text simple search]",
+  "title" : "Html [Text simple search]",
+  "time" : {
+    "start" : 1456393476308,
+    "stop" : 1456393487761,
+    "duration" : 11453
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "get[com.seleniumcamp.endpoint.demo.GoogleEndPointStyle$1$$Lambda$3/156711739@556980b0]",
+    "title" : "get {0}",
+    "time" : {
+      "start" : 1456393476428,
+      "stop" : 1456393487760,
+      "duration" : 11332
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "GET: https://www.google.com.ua/search",
+      "source" : "45512492-ac19-4e0d-ad25-6a4a48e1ef06-attachment.txt",
+      "type" : null
+    }, {
+      "title" : "<!doctype html><html itemscope=\"\" itemtype=\"http://schema.org/SearchResultsPage\" lang=\"uk\"><head><meta content=\"text/htm...",
+      "source" : "2ad9d889-63e6-4236-8db0-1c4af2096645-attachment.html",
+      "type" : null
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DEMO"
+  }, {
+    "name" : "feature",
+    "value" : "Google search"
+  }, {
+    "name" : "host",
+    "value" : "evgeniyat"
+  }, {
+    "name" : "thread",
+    "value" : "7979@evgeniyat.pool-35-thread-1(32)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

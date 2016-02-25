@@ -1,11 +1,11 @@
 {
-  "uid" : "13624212-b737-449a-bf26-9063abd7d8a3",
-  "name" : "json[1]",
-  "title" : "Json [1]",
+  "uid" : "05a4020d-a862-43b4-b68a-271350d01d99",
+  "name" : "html[Text search for \"x1group\"]",
+  "title" : "Html [Text search for \"x1group\"]",
   "time" : {
-    "start" : 1455270530884,
-    "stop" : 1455270549022,
-    "duration" : 18138
+    "start" : 1456393487545,
+    "stop" : 1456393488129,
+    "duration" : 584
   },
   "summary" : {
     "attachments" : 2,
@@ -18,11 +18,11 @@
   "steps" : [ ],
   "attachments" : [ {
     "title" : "Search request",
-    "source" : "477f02bf-cc73-4915-be62-8bb363489c3d-attachment.txt",
+    "source" : "9be72309-dae8-4e49-800a-4fa73326a6b4-attachment.txt",
     "type" : null
   }, {
     "title" : "Search response",
-    "source" : "d98a0b3c-5885-4d24-95f2-2884652ff2fb-attachment.json",
+    "source" : "dd8afbf0-b0f4-48bf-97cf-ee0afa322193-attachment.html",
     "type" : null
   } ],
   "labels" : [ {
@@ -36,7 +36,7 @@
     "value" : "evgeniyat"
   }, {
     "name" : "thread",
-    "value" : "2990@evgeniyat.pool-17-thread-1(23)"
+    "value" : "7979@evgeniyat.pool-33-thread-1(37)"
   }, {
     "name" : "framework",
     "value" : "JUnit"
