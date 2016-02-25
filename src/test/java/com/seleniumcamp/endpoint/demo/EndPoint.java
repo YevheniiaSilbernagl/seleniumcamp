@@ -118,7 +118,7 @@ public abstract class EndPoint {
         return method.getName() + ": " + requestUrl + "\n" + params;
     }
 
-    @Step("'{method} {0}'")
+    @Step("'{method}'")
     public Response get() {
         RequestSender sender = this.getRequestSpecification();
         saveRequest(HttpMethod.GET, this.getUrl(), sender);
@@ -136,7 +136,7 @@ public abstract class EndPoint {
         return response;
     }
 
-    @Step("'{method} {0}'")
+    @Step("'{method}'")
     public Response post() {
         RequestSender sender = this.getRequestSpecification();
         saveRequest(HttpMethod.POST, this.getUrl(), sender);
@@ -163,7 +163,7 @@ public abstract class EndPoint {
         return response;
     }
 
-    @Step("'{method} {0}'")
+    @Step("'{method}'")
     public Response put() {
         RequestSender sender = this.getRequestSpecification();
         saveRequest(HttpMethod.PUT, this.getUrl(), sender);
