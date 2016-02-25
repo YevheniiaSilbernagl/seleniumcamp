@@ -1,4 +1,4 @@
-package com.seleniumcamp.dependent.demo;
+package com.seleniumcamp.endpoint.demo;
 
 import com.google.gson.JsonParser;
 import com.jayway.restassured.response.Response;

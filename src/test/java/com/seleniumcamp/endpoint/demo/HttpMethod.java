@@ -1,4 +1,4 @@
-package com.seleniumcamp.dependent.demo;
+package com.seleniumcamp.endpoint.demo;
 
 /**
  * Created by sivashchenko on 24.06.15
